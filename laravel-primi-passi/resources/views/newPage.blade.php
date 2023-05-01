@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-      <h1>{{$title}}</h1>
-      <p>{{$text}}</p>  
-      <a href="newPage">ProvaQui</a>
+    <h1>{{$title}}</h1>
+    <p>{{$text}}</p>
+    <a href="/">Prova a ripremere qui</a>
 </body>
 </html>

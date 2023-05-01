@@ -22,3 +22,11 @@ Route::get('/', function () {
     return view('home', $data);
 });
 
+Route::get('/newPage', function () {
+
+    $data = [
+        'title' => 'Eccomi',
+        'text' => 'Vediamo cosa succede se riprovo sotto',
+    ];
+    return view('newPage', $data);
+});
